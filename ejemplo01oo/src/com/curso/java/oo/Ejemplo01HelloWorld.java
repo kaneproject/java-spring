@@ -46,6 +46,7 @@ public class Ejemplo01HelloWorld {
 		mapa.put("ROJO", policia);
 		mapa.put("VERDE",poliPorrero);
 		mapa.put("ROJO", poliPorrero);
+		mapa.get("ROJO");
 		
 		
 		
