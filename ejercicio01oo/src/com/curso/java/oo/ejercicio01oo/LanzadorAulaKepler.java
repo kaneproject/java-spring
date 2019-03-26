@@ -34,7 +34,7 @@ public class LanzadorAulaKepler {
 		}
 		//aula.getPuestosDeAlumnos().stream().filter(predicate).
 		
-		
+		System.out.println();
 		
 		
 		
