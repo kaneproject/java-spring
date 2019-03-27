@@ -3,5 +3,6 @@
 .project
 .classpath
 .settings
+.springbeans
 bin
 target
