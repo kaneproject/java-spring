@@ -1,4 +1,4 @@
-package ejemplo05beans;
+package ejemplo05beans.beans1;
 	
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

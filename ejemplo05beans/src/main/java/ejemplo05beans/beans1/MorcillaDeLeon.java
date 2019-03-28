@@ -1,4 +1,4 @@
-package ejemplo05beans;
+package ejemplo05beans.beans1;
 
 public class MorcillaDeLeon {
 	@Override
