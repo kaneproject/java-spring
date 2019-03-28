@@ -7,6 +7,8 @@ public class LanzadorSpring {
 	public static void main(String[] args) {
 		ApplicationContext applicationContext = 
 			new ClassPathXmlApplicationContext("beans1.xml");
+		
+		
 		MorcillaDeLeon morcilla = 
 				(MorcillaDeLeon) applicationContext.getBean("morcillaDeLeon");
 		System.out.println(morcilla);
@@ -15,8 +17,14 @@ public class LanzadorSpring {
 		MorcillaDeLeon otraMorcilla = 
 				(MorcillaDeLeon) applicationContext.getBean("morcillaDeLeon");
 		System.out.println(morcilla);
+		cambiame(applicationContext);
 		System.out.println(otraMorcilla);
 		
 	
+	}
+	public static void cambiame(ApplicationContext applicationContext) {
+		MorcillaDeLeon morcilla = (MorcillaDeLeon) applicationContext.getBean("morcillaDeLeon");
+		morcilla.setColor("Sangre negra");
+
 	}
 }

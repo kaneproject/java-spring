@@ -5,6 +5,6 @@
 
 	<bean id="morcillaDeLeon" class="ejemplo05beans.beans1.MorcillaDeLeon" scope="singleton">
 		<property name="sabor" value="latino"/>
-		<property name="color" value="rico rico"/>
+		<property name="color" value="RIQUISIMO"/>
 	</bean>
 </beans>
