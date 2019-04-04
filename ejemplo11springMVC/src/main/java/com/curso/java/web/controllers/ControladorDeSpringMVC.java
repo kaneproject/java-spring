@@ -17,7 +17,7 @@ public class ControladorDeSpringMVC {
 	
 	@Autowired
 	private MensajeChulo mensajeChulo;
-	/mvc/verFormularioSpringMVC
+
 	@RequestMapping("verFormularioSpringMVC")
 	public ModelAndView verFormulario() {
 		//Llamo al negocio y en el model and view le pongo  los datos.
@@ -38,8 +38,6 @@ public class ControladorDeSpringMVC {
 		return modelAndView;
 		
 	}
-	
-	
 	
 	
 	
