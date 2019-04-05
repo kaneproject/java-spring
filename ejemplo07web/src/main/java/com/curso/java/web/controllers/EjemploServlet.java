@@ -29,7 +29,7 @@ public class EjemploServlet extends HttpServlet {
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		request.setAttribute("saludo", "Hola");
+		request.setAttribute("saludo", "Micojonebailando");
 		getServletContext().getRequestDispatcher("/WEB-INF/jsps/saludar.jsp").forward(request, response);
 	}
 
