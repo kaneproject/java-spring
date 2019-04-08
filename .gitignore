@@ -8,3 +8,5 @@
 Servers
 bin
 target
+mvn*
+.mvn
